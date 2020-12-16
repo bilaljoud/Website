@@ -1,6 +1,6 @@
 body{
     background-color: #f4f4f4;
-    color: #555555;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -8,22 +8,27 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 75%;
     margin: auto;
     overflow: hidden;
 }
 
 #main-header{
-    background-color: teal;
-    color:white;
+    background-color: rgb(3, 170, 170);
+    color: black;
 }
 #main-header h1{
-    font-size: 40px;
+    font-size: 45px;
 }
 
+.social-link{
+    float: right;
+    padding-left: 20px;
+    padding-bottom: .5em;
+}
 
 #navbar{
-    background-color: slategrey;
+    background-color: #333333;
     color: white;
 }
 #navbar ul{
